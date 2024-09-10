@@ -1,5 +1,6 @@
 Warehousename: TRAFFIC_WH
 Databasename: TRAFFIC_ANALYTICS
+SCHEMA: staging, warehouse, marts
 DLT_USER
 dlt_user_password123
 DLT_ROLE
