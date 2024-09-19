@@ -6,7 +6,6 @@ import os
 load_dotenv()
 
 api_key = os.getenv('API_KEY')
-
 # API-endpoint för trafikolycksdata
 url = 'https://api.trafikinfo.trafikverket.se/v2/data.json'
 
