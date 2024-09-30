@@ -1,8 +1,8 @@
 # helpfunctions/trafikverket.py
-
 import requests
 import os
 from dotenv import load_dotenv
+from helpers.connect_db import connect_db, close_db
 
 load_dotenv()
 
@@ -28,11 +28,43 @@ def _get_trafikverket_data():
         print(response.text)
         return None
 
+def flatten_json(y):
+    """Rekursivt platta ut JSON till en enkel nivå."""
+    out = {}
+
+    def flatten(x, name=''):
+        if isinstance(x, dict):
+            for a in x:
+                flatten(x[a], name + a + '_')
+        elif isinstance(x, list):
+            i = 0
+            for a in x:
+                flatten(a, name + str(i) + '_')
+                i += 1
+        else:
+            out[name[:-1]] = x
+
+    flatten(y)
+    return out
+
+def get_existing_ids():
+    """Hämtar alla existerande ID:n från trafikverket_data-tabellen."""
+    conn, cur = connect_db()
+    cur.execute("SELECT id FROM staging.trafikverket_data")
+    existing_ids = {row[0] for row in cur.fetchall()}
+    close_db(conn, cur)
+    return existing_ids
+
 def trafikverket_resource():
     data = _get_trafikverket_data()
+    existing_ids = get_existing_ids()  # Hämta alla redan existerande ID:n
 
     if data:
         for result in data['RESPONSE']['RESULT']:
             for situation in result['Situation']:
                 for deviation in situation['Deviation']:
-                    yield deviation
+                    deviation_id = deviation.get('Id')
+                    if deviation_id not in existing_ids:
+                        # Platta ut JSON-strukturen
+                        flat_deviation = flatten_json(deviation)
+                        yield flat_deviation
