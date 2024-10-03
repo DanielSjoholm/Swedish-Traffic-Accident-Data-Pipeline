@@ -1,0 +1,38 @@
+Table fct_traffic_incidents {
+  id INTEGER [primary key]
+  time_id INTEGER [ref: >dim_time.time_id]
+  location_id INTEGER [ref: >dim_location.location_id]
+  message_id INTEGER [ref: >dim_message.message_id]
+  severity_code INTEGER [not null]
+  number_of_lanes_restricted INTEGER
+  temporary_limit INTEGER
+  valid_until_further_notice BOOLEAN
+  positional_description STRING
+}
+
+Table dim_time {
+  time_id INTEGER [primary key]
+  start_time DATETIME [not null]
+  end_time DATETIME
+  creation_time DATETIME
+}
+
+Table dim_location {
+  location_id INTEGER [primary key]
+  road_number_numeric INTEGER [not null]
+  road_name STRING
+  geometry_point_sweref99_tm STRING
+  geometry_point_wgs84 STRING
+  geometry_line_sweref99_tm STRING
+  geometry_line_wgs84 STRING
+}
+
+Table dim_message {
+  message_id INTEGER [primary key]
+  message_type STRING [not null]
+  message_type_value STRING
+  message STRING [not null]
+  severity_text STRING
+  safety_related_message BOOLEAN
+  message_code INTEGER
+}

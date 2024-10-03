@@ -1,0 +1,28 @@
+Att bryta ner tiden till specifika delar som start_year, end_year, 
+och creation_year i en tidstabell (som i ett stjärnschema) har vissa specifika fördelar, 
+särskilt när du arbetar med data som innehåller olika typer av tidspunkter (t.ex. start, slut, skapande).
+Här är varför det kan vara relevant att ha dessa separata kolumner:
+
+1. Olika Tidsaspekter
+
+	•	Startår och slutår: Det kan finnas situationer där ett trafikincident börjar ett år och slutar ett annat. 
+        Om du bara har en generell year-kolumn, så missar du skillnaden mellan start- och slutår.
+	•	Skapandeår (creation_year): Detta fält är användbart när du vill spåra när en incident först registrerades. 
+        Det kan finnas en tidsskillnad mellan när en incident skapades (eller rapporterades) och när den faktiskt började eller slutade.
+
+2. Användbarhet för Analys
+
+Om du vill kunna analysera data baserat på olika tidsenheter 
+(t.ex. startår för att undersöka mönster i starttid, eller slutår för att analysera när incidenterna löstes),
+är det nödvändigt att ha separata fält för att kunna segmentera och analysera varje del specifikt. 
+Till exempel:
+
+	•	Du kanske vill analysera alla incidenter som startade under ett visst år men fortfarande pågick in i nästa år.
+	•	Om du bara har ett enda fält för “år” blir det svårt att skilja på när incidenten började och när den slutade.
+
+3. Flexibilitet för Olika Frågor
+
+Genom att separera start-, slut- och skapandetider får du flexibilitet att:
+
+	•	Analysera tidpunkter: Hur länge pågick en typisk incident (skillnaden mellan start och slut)?
+	•	Identifiera förändringar: Hur många incidenter startade under ett visst år men slutade under ett annat?
