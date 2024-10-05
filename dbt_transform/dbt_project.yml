@@ -44,4 +44,4 @@ models:
       +schema: warehouse
 
     mart: 
-      +schema: marts
+      +schema: mart

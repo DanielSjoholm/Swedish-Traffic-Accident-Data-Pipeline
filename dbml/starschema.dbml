@@ -1,13 +1,15 @@
-Table fct_traffic_incidents {
+Table fct_traffic_situation {
   id INTEGER [primary key]
   time_id INTEGER [ref: >dim_time.time_id]
   location_id INTEGER [ref: >dim_location.location_id]
   message_id INTEGER [ref: >dim_message.message_id]
-  severity_code INTEGER [not null]
+  icon_id STRING
+  severity_text INTEGER
+  affected_direction STRING
   number_of_lanes_restricted INTEGER
   temporary_limit INTEGER
-  valid_until_further_notice BOOLEAN
-  positional_description STRING
+  location_descriptor STRING
+  traffic_restriction_type STRING
 }
 
 Table dim_time {
@@ -15,6 +17,24 @@ Table dim_time {
   start_time DATETIME [not null]
   end_time DATETIME
   creation_time DATETIME
+  start_year INTEGER [not null]
+  start_month INTEGER [not null]
+  start_day INTEGER [not null]
+  start_hour INTEGER [not null]
+  start_minute INTEGER [not null]
+  start_second INTEGER [not null]
+  end_year INTEGER
+  end_month INTEGER
+  end_day INTEGER
+  end_hour INTEGER
+  end_minute INTEGER
+  end_second INTEGER
+  creation_year INTEGER
+  creation_month INTEGER
+  creation_day INTEGER
+  creation_hour INTEGER
+  creation_minute INTEGER
+  creation_second INTEGER
 }
 
 Table dim_location {
@@ -30,7 +50,6 @@ Table dim_location {
 Table dim_message {
   message_id INTEGER [primary key]
   message_type STRING [not null]
-  message_type_value STRING
   message STRING [not null]
   severity_text STRING
   safety_related_message BOOLEAN

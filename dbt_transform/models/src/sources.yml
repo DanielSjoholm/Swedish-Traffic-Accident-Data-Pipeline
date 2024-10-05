@@ -1,0 +1,6 @@
+sources:
+    - name: traffic_analytics_db
+      schema: staging
+      tables: 
+        - name: stg_traffic
+          identifier: trafikverket_data
