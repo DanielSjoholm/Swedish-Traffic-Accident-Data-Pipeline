@@ -12,10 +12,10 @@ with src_location as (
 
 SELECT
     {{ dbt_utils.generate_surrogate_key(['id']) }} AS location_id,
-    road_number_numeric,
-    road_name,
-    geometry_point_sweref99_tm,
-    geometry_point_wgs84,
-    geometry_line_sweref99_tm,
-    geometry_line_wgs84
+    {{capitalize_first_letter("COALESCE(road_name, 'ej specificerat')")}} AS road_name,
+    COALESCE(road_number, -1) AS road_number,
+    COALESCE(wgs84_line_coordinates, 'Ej specificerat') AS wgs84_line_coordinates,
+    COALESCE(wgs84_point_coordinates, 'Ej specificerat') AS wgs84_point_coordinates,
+    COALESCE(sweref99_tm_line_coordinates, 'Ej specificerat') AS sweref99_tm_line_coordinates,
+    COALESCE(sweref99_tm_point_coordinates, 'Ej specificerat') AS sweref99_tm_point_coordinates
 FROM src_location

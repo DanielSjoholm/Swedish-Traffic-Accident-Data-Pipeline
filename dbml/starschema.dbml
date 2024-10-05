@@ -4,7 +4,6 @@ Table fct_traffic_situation {
   location_key INTEGER [ref: >dim_location.location_id]
   message_key INTEGER [ref: >dim_message.message_id]
   icon_id STRING
-  severity_text INTEGER
   affected_direction STRING
   number_of_lanes_restricted INTEGER
   temporary_limit INTEGER

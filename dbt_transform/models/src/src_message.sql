@@ -15,6 +15,5 @@ SELECT
     message_type,
     message,
     severity_text,
-    safety_related_message,
     message_code
 from stg_traffic

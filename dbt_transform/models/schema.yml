@@ -1,0 +1,183 @@
+version: 2
+
+models:
+  - name: fct_traffic_situation
+    description: "Fact table storing various traffic events like ferry schedules, roadwork, and road closures."
+    columns:
+      - name: id
+        description: "Primary key uniquely identifying each traffic situation."
+        data_type: VARCHAR
+        data_tests:
+          - unique
+          - not_null
+      - name: message_key
+        description: "Foreign key referencing dim_message for message details."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              to: dim_message
+              field: message_id
+      - name: location_key
+        description: "Foreign key referencing dim_location for location details."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              to: dim_location
+              field: location_id
+      - name: time_key
+        description: "Foreign key referencing dim_time for time-related information."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              to: dim_time
+              field: time_id
+      - name: situation_type
+        description: "Type of the traffic situation (e.g., 'Ferry Departure', 'Roadwork')."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: affected_direction
+        description: "Direction affected by the traffic situation."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: number_of_lanes_restricted
+        description: "Number of lanes restricted by the traffic event."
+        data_type: INTEGER
+        data_tests:
+          - not_null
+      - name: temporary_limit
+        description: "Temporary speed or lane limit imposed."
+        data_type: VARCHAR
+      - name: location_descriptor
+        description: "Additional description of the location."
+        data_type: VARCHAR
+      - name: traffic_restriction_type
+        description: "Type of restriction (e.g., lane closure, diversion)."
+        data_type: VARCHAR
+
+  - name: dim_time
+    description: "Dimension table storing time information for traffic events."
+    columns:
+      - name: time_id
+        description: "Primary key uniquely identifying each time record."
+        data_type: VARCHAR
+        data_tests:
+          - unique
+          - not_null
+      - name: start_time
+        description: "Start time of the event."
+        data_type: TIMESTAMP
+        data_tests:
+          - not_null
+      - name: end_time
+        description: "End time of the event."
+        data_type: TIMESTAMP
+        data_tests:
+          - not_null
+      - name: creation_time
+        description: "Timestamp when the event was created."
+        data_type: TIMESTAMP
+        data_tests:
+          - not_null
+
+  - name: dim_message
+    description: "Dimension table storing traffic messages and notifications."
+    columns:
+      - name: message_id
+        description: "Primary key uniquely identifying each message."
+        data_type: VARCHAR
+        data_tests:
+          - unique
+          - not_null
+      - name: message_type
+        description: "Type of message (e.g., 'Ferry', 'Roadwork')."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: message_code
+        description: "Code associated with the message."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: message
+        description: "Description of the message."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: severity_text
+        description: "Severity level of the message."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+
+  - name: dim_location
+    description: "Dimension table storing location data such as road names and coordinates."
+    columns:
+      - name: location_id
+        description: "Primary key uniquely identifying each location."
+        data_type: VARCHAR
+        data_tests:
+          - unique
+          - not_null
+      - name: road_name
+        description: "Name of the road or street."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: road_number
+        description: "Road number if available."
+        data_type: INTEGER
+      - name: wgs84_line_coordinates
+        description: "WGS84 line coordinates for mapping the location."
+        data_type: VARCHAR
+      - name: wgs84_point_coordinates
+        description: "WGS84 point coordinates for mapping the location."
+        data_type: VARCHAR
+      - name: sweref99_tm_line_coordinates
+        description: "SWEREF99 TM line coordinates for mapping the location."
+        data_type: VARCHAR
+      - name: sweref99_tm_point_coordinates
+        description: "SWEREF99 TM point coordinates for mapping the location."
+        data_type: VARCHAR
+
+  - name: mart_traffic_situations
+    description: "Mart table aggregating traffic situations from various dimensions."
+    columns:
+      - name: id
+        description: "Primary key identifying each traffic event."
+        data_type: VARCHAR
+        data_tests:
+          - unique
+          - not_null
+      - name: road_name
+        description: "Road name where the event occurred."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: message_type
+        description: "Type of message or traffic event."
+        data_type: VARCHAR
+        data_tests:
+          - not_null
+      - name: start_time
+        description: "Start time of the event."
+        data_type: TIMESTAMP
+        data_tests:
+          - not_null
+      - name: end_time
+        description: "End time of the event."
+        data_type: TIMESTAMP
+        data_tests:
+          - not_null
+      - name: severity_text
+        description: "Severity level of the event."
+        data_type: VARCHAR
+        data_tests:
+          - not_null

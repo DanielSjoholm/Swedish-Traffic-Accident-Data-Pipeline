@@ -1,4 +1,3 @@
-
 {{
     config(
     materialized = 'view',
@@ -13,9 +12,9 @@ WITH src_message AS (
 
 SELECT
     {{ dbt_utils.generate_surrogate_key(['id', 'message_code']) }} AS message_id,
-    message_type,
-    message_code,
-    message,
-    severity_text,
-    safety_related_message
-from src_message
+    {{ capitalize_first_letter(trim_spaces("COALESCE(message_type, 'Inte specifierat')")) }} AS message_type,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(message_code, 'Inte specifierat')")) }} AS message_code,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(message, 'Inte specifierat')")) }} AS message,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(severity_text, 'Inte specifierat')")) }} AS severity_text
+
+FROM src_message

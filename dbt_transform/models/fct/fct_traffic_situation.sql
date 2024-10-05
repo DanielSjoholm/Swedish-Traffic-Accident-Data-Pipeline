@@ -23,13 +23,12 @@ SELECT
     {{ dbt_utils.generate_surrogate_key(['m.id', 'm.message_code']) }} AS message_key,
     {{ dbt_utils.generate_surrogate_key(['l.id']) }} AS location_key,
     {{ dbt_utils.generate_surrogate_key(['t.id', 't.start_time']) }} AS time_key,
-    ts.icon_id,
-    ts.severity_text,
-    ts.affected_direction,
-    ts.number_of_lanes_restricted,
-    ts.temporary_limit,
-    ts.location_descriptor,
-    ts.traffic_restriction_type
+    {{ capitalize_first_letter(trim_spaces("COALESCE(ts.icon_id, 'ej specificerat')")) }} AS situation_type,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(ts.affected_direction, 'ej specificerat')")) }} AS affected_direction,
+    COALESCE(ts.number_of_lanes_restricted, -1) AS number_of_lanes_restricted,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(ts.temporary_limit, 'ej specificerat')")) }} AS temporary_limit,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(ts.location_descriptor, 'ej specificerat')")) }} AS location_descriptor,
+    {{ capitalize_first_letter(trim_spaces("COALESCE(ts.traffic_restriction_type, 'ej specificerat')")) }} AS traffic_restriction_type
 FROM 
     ts
 LEFT JOIN
