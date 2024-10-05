@@ -1,8 +1,8 @@
 Table fct_traffic_situation {
   id INTEGER [primary key]
-  time_id INTEGER [ref: >dim_time.time_id]
-  location_id INTEGER [ref: >dim_location.location_id]
-  message_id INTEGER [ref: >dim_message.message_id]
+  time_key INTEGER [ref: >dim_time.time_id]
+  location_key INTEGER [ref: >dim_location.location_id]
+  message_key INTEGER [ref: >dim_message.message_id]
   icon_id STRING
   severity_text INTEGER
   affected_direction STRING

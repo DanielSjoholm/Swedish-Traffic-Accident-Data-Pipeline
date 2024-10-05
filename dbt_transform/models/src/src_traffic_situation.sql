@@ -12,6 +12,7 @@ WITH stg_traffic AS (
 
 SELECT
     id,
+    icon_id,
     severity_text,
     affected_direction,         
     number_of_lanes_restricted,
