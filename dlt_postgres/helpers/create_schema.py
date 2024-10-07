@@ -3,13 +3,4 @@ def create_schema(conn, cur):
     cur.execute("""
         CREATE SCHEMA IF NOT EXISTS staging;
     """)
-
-    cur.execute("""
-        CREATE SCHEMA IF NOT EXISTS warhouse;
-    """)
-
-    cur.execute("""
-        CREATE SCHEMA IF NOT EXISTS mart;
-    """)
-    
     conn.commit()
