@@ -17,7 +17,7 @@ models:
           - not_null
           - unique
           - relationships:
-              to: dim_message
+              to: warehouse.dim_message
               field: message_id
       - name: location_key
         description: "Foreign key referencing dim_location for location details."
@@ -26,7 +26,7 @@ models:
           - not_null
           - unique
           - relationships:
-              to: dim_location
+              to: warehouse.dim_location
               field: location_id
       - name: time_key
         description: "Foreign key referencing dim_time for time-related information."
@@ -35,7 +35,7 @@ models:
           - not_null
           - unique
           - relationships:
-              to: dim_time
+              to: warehouse.dim_time
               field: time_id
       - name: situation_type
         description: "Type of the traffic situation (e.g., 'Ferry Departure', 'Roadwork')."

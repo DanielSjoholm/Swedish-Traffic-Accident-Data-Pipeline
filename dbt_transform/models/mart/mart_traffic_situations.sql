@@ -24,6 +24,7 @@ t AS (
 
 SELECT
     ts.id AS id,
+    t.creation_time,
     t.start_time,
     t.start_year,
     t.start_month,
