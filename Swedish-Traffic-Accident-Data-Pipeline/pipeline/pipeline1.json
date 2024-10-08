@@ -1,0 +1,35 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "TrafikverketAPI_Call",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"headers": {
+						"Content-Type": "text/xml"
+					},
+					"linkedServices": [
+						{
+							"referenceName": "HttpServer1",
+							"type": "LinkedServiceReference"
+						}
+					],
+					"url": "https://api.trafikinfo.trafikverket.se/v2/data.json",
+					"body": "<REQUEST>\n    <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n    <QUERY objecttype=\"Situation\" schemaversion=\"1.5\">\n        <INCLUDE>Deviation</INCLUDE>\n    </QUERY>\n</REQUEST>"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
