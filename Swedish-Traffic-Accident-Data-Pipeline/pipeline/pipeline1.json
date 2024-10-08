@@ -32,7 +32,14 @@
 			{
 				"name": "TrafikDataToPostgres",
 				"type": "Copy",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "TrafikverketAPI_Call",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -55,11 +62,23 @@
 							"type": "JsonReadSettings"
 						}
 					},
+					"sink": {
+						"type": "AzurePostgreSQLSink",
+						"writeBatchSize": 1000000,
+						"writeBatchTimeout": "00:30:00",
+						"writeMethod": "CopyCommand"
+					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "Json1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzurePostgreSqlTable1",
 						"type": "DatasetReference"
 					}
 				]
