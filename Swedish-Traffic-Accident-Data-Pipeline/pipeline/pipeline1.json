@@ -26,7 +26,7 @@
 						}
 					],
 					"url": "https://api.trafikinfo.trafikverket.se/v2/data.json",
-					"body": "<REQUEST>\n    <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n    <QUERY objecttype=\"Situation\" schemaversion=\"1.5\">\n        <INCLUDE>Deviation</INCLUDE>\n    </QUERY>\n</REQUEST>"
+					"body": "<REQUEST>\n    <LOGIN authenticationkey=\"din-api-nyckel\" />\n    <QUERY objecttype=\"Situation\" schemaversion=\"1.5\">\n        <INCLUDE>Deviation</INCLUDE>\n        <PAGINATE limit=\"100\" offset=\"0\" /> \n    </QUERY>\n</REQUEST>"
 				}
 			}
 		],
