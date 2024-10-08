@@ -57,6 +57,7 @@
 						"type": "AzurePostgreSQLSink",
 						"writeBatchSize": 1000000,
 						"writeBatchTimeout": "00:30:00",
+						"preCopyScript": "INSERT INTO trafikverket_data (id)\nVALUES (value1)\nON CONFLICT (id) DO NOTHING;",
 						"writeMethod": "CopyCommand"
 					},
 					"enableStaging": false,
