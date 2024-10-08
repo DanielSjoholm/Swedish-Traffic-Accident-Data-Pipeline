@@ -26,7 +26,7 @@
 						}
 					],
 					"url": "https://api.trafikinfo.trafikverket.se/v2/data.json",
-					"body": "<REQUEST>\n    <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n    <QUERY objecttype=\"Situation\" schemaversion=\"1.5\">\n        <INCLUDE>Deviation</INCLUDE>\n        <FILTER>\n            <GT name=\"StartTime\" value=\"2023-08-01T00:00:00\" />\n        </FILTER>\n    </QUERY>\n</REQUEST>"
+					"body": "<REQUEST>\n    <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n    <QUERY objecttype=\"Situation\" schemaversion=\"1.5\">\n        <INCLUDE>Deviation</INCLUDE>\n        <FILTER>\n            <GT name=\"CreationTime\" value=\"2023-08-01T00:00:00\" />\n        </FILTER>\n    </QUERY>\n</REQUEST>"
 				}
 			}
 		],
