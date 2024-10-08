@@ -28,6 +28,41 @@
 					"url": "https://api.trafikinfo.trafikverket.se/v2/data.json",
 					"body": "<REQUEST>\n  <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n  <QUERY objecttype=\"Situation\" schemaversion=\"1.5\" limit=\"1000\">\n    <INCLUDE>Deviation</INCLUDE>\n  </QUERY>\n</REQUEST>"
 				}
+			},
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "JsonSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "POST",
+							"additionalHeaders": "Key: Content-Type\nValue: text/xml",
+							"requestBody": "<REQUEST>\n  <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n  <QUERY objecttype=\"Situation\" schemaversion=\"1.5\" limit=\"1000\">\n    <INCLUDE>Deviation</INCLUDE>\n  </QUERY>\n</REQUEST>",
+							"requestTimeout": ""
+						},
+						"formatSettings": {
+							"type": "JsonReadSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "Json1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
