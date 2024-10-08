@@ -30,7 +30,7 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "TrafikDataToPostgres",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
