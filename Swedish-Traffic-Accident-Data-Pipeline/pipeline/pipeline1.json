@@ -50,17 +50,8 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "JsonSource",
-						"storeSettings": {
-							"type": "HttpReadSettings",
-							"requestMethod": "POST",
-							"additionalHeaders": "Key: Content-Type\nValue: text/xml",
-							"requestBody": "<REQUEST>\n  <LOGIN authenticationkey=\"5c341f5a9438482ca26b412a7c146cea\" />\n  <QUERY objecttype=\"Situation\" schemaversion=\"1.5\" limit=\"1000\">\n    <INCLUDE>Deviation</INCLUDE>\n  </QUERY>\n</REQUEST>",
-							"requestTimeout": ""
-						},
-						"formatSettings": {
-							"type": "JsonReadSettings"
-						}
+						"type": "AzurePostgreSqlSource",
+						"partitionOption": "None"
 					},
 					"sink": {
 						"type": "AzurePostgreSQLSink",
@@ -68,11 +59,19 @@
 						"writeBatchTimeout": "00:30:00",
 						"writeMethod": "CopyCommand"
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "AzurePostgreSqlTable1",
 						"type": "DatasetReference"
 					}
 				],
