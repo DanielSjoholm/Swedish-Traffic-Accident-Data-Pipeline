@@ -28,5 +28,3 @@ def close_db(conn, cur):
     if conn:
         conn.close()
         print("Anslutningen stängdes.")
-
-connect_db()
