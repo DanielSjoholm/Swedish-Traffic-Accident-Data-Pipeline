@@ -6,7 +6,11 @@ WITH ts AS (
 
 l AS (
     SELECT
-        *
+        *,
+        REGEXP_SUBSTR(wgs84_point_coordinates, '([\d\.]+)', 1, 1) AS wgs84_point_longitude,
+        REGEXP_SUBSTR(wgs84_point_coordinates, '([\d\.]+)', 1, 2) AS wgs84_point_latitude,
+        REGEXP_SUBSTR(wgs84_line_coordinates, '([\d\.]+)', 1, 1) AS wgs84_line_longitude,
+        REGEXP_SUBSTR(wgs84_line_coordinates, '([\d\.]+)', 1, 2) AS wgs84_line_latitude
     FROM {{ ref('dim_location') }}
 ),
 
@@ -43,8 +47,10 @@ SELECT
     ts.traffic_restriction_type,
     l.road_name,
     l.road_number,
-    l.wgs84_line_coordinates,
-    l.wgs84_point_coordinates,
+    l.wgs84_point_longitude,  -- Lägger till extraherad longitud för punkt
+    l.wgs84_point_latitude,   -- Lägger till extraherad latitud för punkt
+    l.wgs84_line_longitude,   -- Lägger till extraherad longitud för linje
+    l.wgs84_line_latitude,    -- Lägger till extraherad latitud för linje
     m.message_type,
     m.message_code,
     m.message,
