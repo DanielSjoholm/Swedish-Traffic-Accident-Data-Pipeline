@@ -15,7 +15,6 @@ def connect_db():
     
         )
         cur = conn.cursor()
-        print("Anslutning till databasen lyckades.")
         return conn, cur
     except psycopg2.DatabaseError as e:
         print(f"Fel vid anslutning till databasen: {e}")
@@ -23,8 +22,10 @@ def connect_db():
 
 def close_db(conn, cur):
     """Stänger anslutningen och kursorn."""
-    if cur:
-        cur.close()
-    if conn:
-        conn.close()
-        print("Anslutningen stängdes.")
+    try:
+        if cur:
+            cur.close()
+        if conn:
+            conn.close()
+    except psycopg2.DatabaseError as e:
+        print(f"Fel vid stängning av databasen: {e}")
