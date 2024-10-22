@@ -9,10 +9,8 @@ import time
 # Ladda API-nyckeln från .env-filen
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-
 # Filnamn för cachen
 cache_filename = "geocode_cache_lan.json"
-
 # Försök ladda cache från en fil
 try:
     with open(cache_filename, "r") as cache_file:

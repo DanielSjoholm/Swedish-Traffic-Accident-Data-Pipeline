@@ -47,10 +47,10 @@ SELECT
     ts.traffic_restriction_type,
     l.road_name,
     l.road_number,
-    l.wgs84_point_longitude,  -- Lägger till extraherad longitud för punkt
-    l.wgs84_point_latitude,   -- Lägger till extraherad latitud för punkt
-    l.wgs84_line_longitude,   -- Lägger till extraherad longitud för linje
-    l.wgs84_line_latitude,    -- Lägger till extraherad latitud för linje
+    l.wgs84_point_longitude,
+    l.wgs84_point_latitude,
+    l.wgs84_line_longitude,
+    l.wgs84_line_latitude,
     m.message_type,
     m.message_code,
     m.message,
