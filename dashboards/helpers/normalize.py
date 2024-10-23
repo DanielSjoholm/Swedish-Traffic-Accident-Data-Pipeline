@@ -61,6 +61,5 @@ def normalize_lan(lan):
         "Kalmar County": "Kalmar län",
         "Okänd län": "Okänd län"
     }
-    
-    # Returnera det normaliserade länsnamnet
-    return lan_map.get(lan, lan)  # Om länet inte finns i mappningen, returnera originalet
+
+    return lan_map.get(lan, lan)

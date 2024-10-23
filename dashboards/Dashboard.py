@@ -1,12 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import json
 from Connect_and_query import query_trafic_situations
 from geopy.geocoders import GoogleV3
 from dotenv import load_dotenv
-import os
-import time
 from helpers.normalize import normalize_lan
 from helpers.reverse_geocode import reverse_geocode
 
