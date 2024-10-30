@@ -2,15 +2,8 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 from Connect_and_query import query_trafic_situations
-from geopy.geocoders import GoogleV3
-from dotenv import load_dotenv
 from helpers.normalize import normalize_lan
 from helpers.reverse_geocode import reverse_geocode
-
-# # Ladda API-nyckeln från .env-filen
-# load_dotenv()
-# GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-# geolocator = GoogleV3(api_key=GOOGLE_API_KEY)
 
 def layout():
     st.set_page_config(layout="wide")

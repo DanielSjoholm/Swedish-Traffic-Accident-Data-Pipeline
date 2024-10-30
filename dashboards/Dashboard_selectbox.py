@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import json
 from Connect_and_query import query_trafic_situations
 from geopy.geocoders import GoogleV3
 from dotenv import load_dotenv
