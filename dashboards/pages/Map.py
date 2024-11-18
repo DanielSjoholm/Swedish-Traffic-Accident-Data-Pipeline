@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
-from Connect_and_query import query_trafic_situations
+from helpers.Connect_and_query import query_trafic_situations
 
 def layout():
     st.set_page_config(layout="wide")

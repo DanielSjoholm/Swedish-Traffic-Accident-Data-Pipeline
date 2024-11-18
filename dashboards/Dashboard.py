@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from Connect_and_query import query_trafic_situations
 from helpers.normalize import normalize_lan
 from helpers.reverse_geocode import reverse_geocode
+from helpers.Connect_and_query import query_trafic_situations
 
 def layout():
     st.set_page_config(layout="wide")

@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from Connect_and_query import query_trafic_situations
 from helpers.normalize import normalize_lan
 from helpers.reverse_geocode import reverse_geocode
+from helpers.Connect_and_query import query_trafic_situations
 
 def layout():
     st.set_page_config(layout="wide")
@@ -24,10 +24,6 @@ def layout():
     # Normalisera län/County så att de har samma namn
     df['LAN'] = df['LAN'].apply(normalize_lan)
 
-    # Räknare för totala antal situationer
-    total_situations = df.shape[0]
-    st.metric("Totalt antal situationer", total_situations)
-
     # Räkna antal situationer per län
     lan_counts = df['LAN'].value_counts().reset_index()
     lan_counts.columns = ['Län', 'Antal situationer']
@@ -37,6 +33,10 @@ def layout():
 
     # Filtrera data för det valda länet
     filtered_df = df[df['LAN'] == selected_lan]
+
+    # Räknare för totala antal situationer i det valda länet
+    total_situations_selected_lan = filtered_df.shape[0]
+    st.metric(f"Totalt antal situationer i {selected_lan}", total_situations_selected_lan)
 
     # Räkna antal message_type för det valda länet
     message_type_counts = filtered_df['MESSAGE_TYPE'].value_counts().reset_index()
