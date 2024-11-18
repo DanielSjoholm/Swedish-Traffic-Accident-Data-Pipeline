@@ -1,9 +1,0 @@
-{
-	"name": "TrafikverketTraficanAlyticsPipeline",
-	"location": "swedencentral",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "75a3fab6-369c-4f3b-acbe-b4079199ba1f",
-		"tenantId": "735058e3-0e46-46ce-a1d5-c0b0a68980db"
-	}
-}

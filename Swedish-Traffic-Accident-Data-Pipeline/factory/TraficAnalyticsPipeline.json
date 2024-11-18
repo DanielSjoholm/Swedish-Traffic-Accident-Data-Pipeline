@@ -1,9 +1,0 @@
-{
-	"name": "TraficAnalyticsPipeline",
-	"location": "swedencentral",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "7cfe6e7a-3f28-4a53-aa15-74cdc9368103",
-		"tenantId": "735058e3-0e46-46ce-a1d5-c0b0a68980db"
-	}
-}
