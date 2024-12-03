@@ -18746,5 +18746,1181 @@
     "58.9552078,17.49581 ": {
         "address": "Kalkbruksv\u00e4gen 1, 619 71 Vagnh\u00e4rad, Sweden",
         "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "59.2749557,18.0145283 ": {
+        "address": "Gamla Huddingev\u00e4gen 490E, 125 42 \u00c4lvsj\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.0373344,16.4375515 ": {
+        "address": "\u00c4lgerumsv\u00e4gen 20, 383 32 M\u00f6nster\u00e5s, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "59.0182343,16.3703747 ": {
+        "address": "Storgatan 37, 641 61 Valla, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "57.6835823,12.2593575 ": {
+        "address": "27, 438 91 Landvetter, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.05931,11.7804718 ": {
+        "address": "L\u00e4nsv\u00e4g 160, 471 61 Stenungsund, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "60.0744438,15.9300623 ": {
+        "address": "69 1, 738 35 Norberg, Sweden",
+        "lan": "V\u00e4stmanlands l\u00e4n"
+    },
+    "59.3586769,18.0294533 ": {
+        "address": "Linv\u00e4vartorpet, 171 64 Solna, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.51754,12.0505209 ": {
+        "address": "E6, 434 95 Kungsbacka, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "61.26037,17.1435852 ": {
+        "address": "Gammelv\u00e4gen 13, 826 72 Sandarne, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "56.9621849,12.9100561 ": {
+        "address": "Bosg\u00e5rdsv\u00e4gen, 314 96 Torup, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "56.9717522,16.8487854 ": {
+        "address": "F\u00f6ra, 387 91 Borgholm, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "56.42346,12.95052 ": {
+        "address": "Viktor Ewalds v\u00e4g 57, 269 41 \u00d6stra Karup, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.51045,18.28087 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.3165169,13.0998316 ": {
+        "address": "Strandgatan 68, 664 40 Slottsbron, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "64.25125,15.8734446 ": {
+        "address": "7V2F+F9 V\u00e4stra T\u00e5sj\u00f6, Sweden",
+        "lan": "Jamtland County"
+    },
+    "57.8150826,13.3547907 ": {
+        "address": "40, 523 90 Ulricehamn, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "68.43414,18.6524849 ": {
+        "address": "E10, 981 93 Kiruna, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.3956947,13.519618 ": {
+        "address": "\u00d6stra Infarten 3, 654 64 Karlstad, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "63.9971123,15.5122366 ": {
+        "address": "342, 833 95 Str\u00f6msund, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "61.61371,17.0328045 ": {
+        "address": "Sunds\u00e4ttersv\u00e4gen, 825 93 Njut\u00e5nger, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "59.4119263,16.58281 ": {
+        "address": "Hammarby v\u00e4gsk\u00e4l, 635 07 Eskilstuna, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "56.3465729,15.1602373 ": {
+        "address": "20, 372 77 Backaryd, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "63.17439,17.0572166 ": {
+        "address": "Centrumv\u00e4gen 8, 882 40 L\u00e5ngsele, Sweden",
+        "lan": "V\u00e4sternorrlands l\u00e4n"
+    },
+    "63.80532,20.16744 ": {
+        "address": "Nya Skravelsj\u00f6v\u00e4gen, 904 41 R\u00f6b\u00e4ck, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "59.24709,12.8584986 ": {
+        "address": "E18, 661 93 S\u00e4ffle, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "61.6054764,17.0543633 ": {
+        "address": "Riksv\u00e4gen 15, 825 93 Njut\u00e5nger, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "55.9462471,12.8124924 ": {
+        "address": "Valhallagatan 41, 261 62 Glumsl\u00f6v, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.2104149,17.719368 ": {
+        "address": "E4, 144 64 R\u00f6nninge, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.44716,13.486414 ": {
+        "address": "Tormansbygd 1420, 285 91 Markaryd, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "56.4471855,13.4864616 ": {
+        "address": "Tormansbygd 1420, 285 91 Markaryd, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "59.5103378,18.2809486 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "55.6302528,13.0828552 ": {
+        "address": "Elisetorpsv\u00e4gen 13, 232 33 Arl\u00f6v, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.3465729,15.1602049 ": {
+        "address": "20, 372 77 Backaryd, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "59.2913742,15.1912193 ": {
+        "address": "50, \u00d6rebro, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "57.8432465,12.0135612 ": {
+        "address": "Uppeg\u00e5rdsv\u00e4gen 36, 445 36 Bohus, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "56.96219,12.910121 ": {
+        "address": "Bosg\u00e5rdsv\u00e4gen, 314 96 Torup, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "59.21037,17.7197685 ": {
+        "address": "E4, 144 40 R\u00f6nninge, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "61.605484,17.0543823 ": {
+        "address": "Riksv\u00e4gen 15, 825 93 Njut\u00e5nger, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "56.2743073,14.0277472 ": {
+        "address": "19, 289 92 Broby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.9717178,16.8487682 ": {
+        "address": "F\u00f6ra, 387 91 Borgholm, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "55.7263947,13.086729 ": {
+        "address": "Fl\u00e4die Mejeriv\u00e4g 21, 237 91 Bj\u00e4rred, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.86075,13.2323418 ": {
+        "address": "O 1824, 523 99 H\u00f6kerum, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "55.54889,12.9599142 ": {
+        "address": "E20, 218 45 Vintrie, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.64386,14.0482388 ": {
+        "address": "M 1587, 273 92 Sk\u00e5ne-Tran\u00e5s, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "64.25124,15.8734436 ": {
+        "address": "7V2F+F9 V\u00e4stra T\u00e5sj\u00f6, Sweden",
+        "lan": "Jamtland County"
+    },
+    "59.4329567,12.0966911 ": {
+        "address": "E18, 672 91 \u00c5rj\u00e4ng, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "57.7876968,12.0350323 ": {
+        "address": "Hambov\u00e4gen 10, 424 38 Agnesberg, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.0447845,11.85148 ": {
+        "address": "E6, 444 91 Stenungsund, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "55.63228,13.0870934 ": {
+        "address": "Elisetorpsv\u00e4gen 19E, 232 33 Arl\u00f6v, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.20946,18.1305771 ": {
+        "address": "Plantslingan 6, 142 51 Skog\u00e5s, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.51032,18.2809467 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "65.74444,23.0822964 ": {
+        "address": "Stor\u00f6n 677, 952 91 Kalix, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.5104637,18.2808552 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "68.34553,19.063076 ": {
+        "address": "E10, 981 95 Kiruna, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.30427,18.1155338 ": {
+        "address": "75, 131 54 Nacka, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "65.76623,23.0487 ": {
+        "address": "\u00d6stanfj\u00e4rden 81, 952 91 Kalix, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.1568832,17.606617 ": {
+        "address": "Sverige, 151 66 S\u00f6dert\u00e4lje, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.5169144,16.4984589 ": {
+        "address": "E22, 572 96 Figeholm, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "63.9948921,15.4677973 ": {
+        "address": "Z 806, 833 95 Str\u00f6msund, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "61.6093,17.051506 ": {
+        "address": "16, 825 92 Njut\u00e5nger, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "56.0942039,12.9712152 ": {
+        "address": "\u00c5storpsv\u00e4gen, 260 50 Billesholm, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.5606842,14.1880474 ": {
+        "address": "Stibyv\u00e4gen 91, 272 96 G\u00e4rsn\u00e4s, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.30261,18.01991 ": {
+        "address": "E4, 117 62 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.1324844,18.3515968 ": {
+        "address": "Dalar\u00f6v\u00e4gen, 137 71 Dalar\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "58.9654045,18.0443878 ": {
+        "address": "X28V+5Q Guldboda, Sweden",
+        "lan": "Stockholm County"
+    },
+    "58.72437,14.9805565 ": {
+        "address": "Dalmark 124, 591 99 Motala, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "57.533493,16.2756653 ": {
+        "address": "H 757, 598 96 Vimmerby, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "56.0452576,14.675559 ": {
+        "address": "All\u00e9v\u00e4gen 1, 294 71 S\u00f6lvesborg, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "55.99152,12.78011 ": {
+        "address": "E6, 253 73 Gantofta, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.9367523,17.5259552 ": {
+        "address": "218, 610 74 Vagnh\u00e4rad, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "56.25329,13.4404507 ": {
+        "address": "Riksv\u00e4g 24, 282 93 R\u00f6ke, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.9367523,17.525938 ": {
+        "address": "218, 610 74 Vagnh\u00e4rad, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "59.5103,18.280962 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.33127,15.1114426 ": {
+        "address": "Eker 388, 705 92 \u00d6rebro, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "59.3980865,16.5542469 ": {
+        "address": "Djurstav\u00e4gen 5, 635 07 Eskilstuna, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "57.5006,11.9830017 ": {
+        "address": "Pr\u00e4st\u00e4ngsv\u00e4gen 7, 429 44 S\u00e4r\u00f6, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "61.6137161,17.0329189 ": {
+        "address": "Sunds\u00e4ttersv\u00e4gen, 825 93 Njut\u00e5nger, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "57.45307,12.1355171 ": {
+        "address": "Brunnlyckan 15, 439 73 Fj\u00e4r\u00e5s, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "57.4325447,14.1710424 ": {
+        "address": "F 804, 568 91 Skillingaryd, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "59.4674873,17.9795132 ": {
+        "address": "Norrortsleden, 192 48 Sollentuna, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.2743,14.0277472 ": {
+        "address": "19, 289 92 Broby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.24709,12.8585167 ": {
+        "address": "E18, 661 93 S\u00e4ffle, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "60.07445,15.93008 ": {
+        "address": "69 1, 738 35 Norberg, Sweden",
+        "lan": "V\u00e4stmanlands l\u00e4n"
+    },
+    "58.549057,16.2555237 ": {
+        "address": "E22, 605 92 Norrk\u00f6ping, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "56.0142479,12.9116678 ": {
+        "address": "Gamla T\u00e5garpsv\u00e4gen, 253 56 M\u00f6rarp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.51031,18.2809639 ": {
+        "address": "Sundtorpsv\u00e4gen 2, 184 33 \u00c5kersberga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "58.70077,16.8628082 ": {
+        "address": "Brak\u00e4rr, 611 95 Nyk\u00f6ping, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "59.4196434,18.0058441 ": {
+        "address": "Sj\u00f6bergsv\u00e4gen 14, 182 37 Danderyd, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.43358,12.6685162 ": {
+        "address": "Bj\u00e4retorp, 269 95 B\u00e5stad, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.3467751,12.5993776 ": {
+        "address": "Salstad 37, 467 96 Gr\u00e4storp, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.7564659,17.6492386 ": {
+        "address": "255, 741 76 Uppsala, Sweden",
+        "lan": "Uppsala l\u00e4n"
+    },
+    "65.85344,23.48086 ": {
+        "address": "Kalixv\u00e4gen 22, 952 72 Sangis, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.2088737,17.7126045 ": {
+        "address": "E4, Salem, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.2682457,14.0357647 ": {
+        "address": "Glimminge 1273, 289 92 Broby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3341827,18.0699234 ": {
+        "address": "Jakobsbergsgatan 22, 111 44 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.33367,18.0649872 ": {
+        "address": "Sveav\u00e4gen 12, 111 57 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "58.05856,11.9144812 ": {
+        "address": "O 650, 444 93 Ucklum, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "56.15454,14.2547417 ": {
+        "address": "R\u00f6etvedsv\u00e4gen 345, 291 96 Kristianstad, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.8918381,17.2031422 ": {
+        "address": "\u00d6stforav\u00e4gen, 744 96 J\u00e4rl\u00e5sa, Sweden",
+        "lan": "Uppsala l\u00e4n"
+    },
+    "55.7173767,13.1672049 ": {
+        "address": "Norra Ringen, 226 60 Lund, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.28677,17.715889 ": {
+        "address": "Kaggeholmsv\u00e4gen 2, 178 53 Eker\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "60.4730339,17.7534256 ": {
+        "address": "Vinkelv\u00e4gen 1, 819 30 Sk\u00e4rplinge, Sweden",
+        "lan": "Uppsala l\u00e4n"
+    },
+    "60.55063,15.2632542 ": {
+        "address": "Gimsb\u00e4rke 343, 781 90 Borl\u00e4nge, Sweden",
+        "lan": "Dalarnas l\u00e4n"
+    },
+    "59.7198143,13.47824 ": {
+        "address": "Ols\u00e4tersv\u00e4gen, 669 91 Deje, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "59.2310371,18.1227531 ": {
+        "address": "Skattetorpsv\u00e4gen 1, 142 66 Tr\u00e5ngsund, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.78035,14.2277613 ": {
+        "address": "Ekhagsringen 9, 554 56 J\u00f6nk\u00f6ping, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "59.32132,14.3960705 ": {
+        "address": "Linneb\u00e4ck 526, 691 93 Karlskoga, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "55.7440529,13.0336237 ": {
+        "address": "E20, 237 91 Bj\u00e4rred, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3349838,18.0737762 ": {
+        "address": "Birger Jarlsgatan 16T, 114 34 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "61.10549,14.6566811 ": {
+        "address": "Kolmyrsv\u00e4gen 13, 794 33 Orsa, Sweden",
+        "lan": "Dalarnas l\u00e4n"
+    },
+    "58.5831833,16.29039 ": {
+        "address": "Furingstadsv\u00e4gen 2, 605 91 Norrk\u00f6ping, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "57.78907,11.9175863 ": {
+        "address": "Hisingsleden, 417 46 G\u00f6teborg, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "63.7999763,19.0302448 ": {
+        "address": "AC 536, 914 93 Norrfors, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "56.2682877,14.0358276 ": {
+        "address": "Glimminge 1273, 289 92 Broby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "66.29601,22.8161716 ": {
+        "address": "E10, 956 91 \u00d6verkalix, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "56.35326,13.4560041 ": {
+        "address": "Fagerhult 6735, 286 74 Sk\u00e5nes Fagerhult, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.3883247,14.3727617 ": {
+        "address": "15, 283 94 L\u00f6nsboda, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3325729,18.0026627 ": {
+        "address": "Kristineberg T-bana, Hjalmar S\u00f6derbergs v\u00e4g, 112 14 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.14227,13.50014 ": {
+        "address": "R\u00f6kev\u00e4gen 19, 282 92 V\u00e4stra Torup, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.6816635,16.3807373 ": {
+        "address": "Hyttav\u00e4gen 66, 618 31 Kolm\u00e5rden, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "58.05734,11.7622175 ": {
+        "address": "Myggen\u00e4s korsv\u00e4g, 471 61 Myggen\u00e4s, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.48502,17.9193687 ": {
+        "address": "Bollstan\u00e4sv\u00e4gen 1, 192 78 Sollentuna, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.31748,14.1484423 ": {
+        "address": "Bartilsbrov\u00e4gen 1, 681 43 Kristinehamn, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "58.9604225,17.5700588 ": {
+        "address": "AB 520, 610 74 Vagnh\u00e4rad, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.26822,14.0358458 ": {
+        "address": "Glimminge 1273, 289 92 Broby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.51525,13.2878342 ": {
+        "address": "E65, 233 91 Svedala, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3101425,18.1816139 ": {
+        "address": "Hammar\u00e9nsv\u00e4gen 16, 131 42 Nacka, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.1545143,14.2547579 ": {
+        "address": "R\u00f6etvedsv\u00e4gen 345, 291 96 Kristianstad, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "65.6960754,21.82932 ": {
+        "address": "Lulev\u00e4gen, 954 42 S\u00f6dra Sunderbyn, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "56.040535,14.34771 ": {
+        "address": "Maglestensv\u00e4gen 111, 291 69 Fj\u00e4lkinge, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "64.84615,17.4301624 ": {
+        "address": "RCWJ+F3 R\u00e5berget, Sweden",
+        "lan": "V\u00e4sterbotten County"
+    },
+    "59.2367859,17.83705 ": {
+        "address": "Segersbyv\u00e4gen 20, 145 63 Norsborg, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.7198143,13.4782581 ": {
+        "address": "Ols\u00e4tersv\u00e4gen, 669 91 Deje, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "59.32007,18.4783287 ": {
+        "address": "Sk\u00e4rg\u00e5rdsv\u00e4gen 248, 139 35 V\u00e4rmd\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "65.3290939,19.7147655 ": {
+        "address": "BD 535, 933 94 Glommerstr\u00e4sk, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "59.3298264,18.0626011 ": {
+        "address": "Vattugatan 17, 111 52 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.0522461,12.6130466 ": {
+        "address": "V\u00e4sterv\u00e4gen, 310 60 Ullared, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "56.8156,13.9034424 ": {
+        "address": "Ringv\u00e4gen 3D, 341 32 Ljungby, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "55.62759,13.0775843 ": {
+        "address": "Burl\u00f6vsbron, 232 32 Arl\u00f6v, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.9882355,12.2102242 ": {
+        "address": "Fr\u00f6vetv\u00e4gen, 446 41 Skepplanda, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "63.7862167,19.168396 ": {
+        "address": "Q5P9+F9 Tj\u00e4rdalsliden, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "56.3447037,15.1548252 ": {
+        "address": "Backen 10, 372 77 Backaryd, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "57.0522346,12.6130476 ": {
+        "address": "V\u00e4sterv\u00e4gen, 310 60 Ullared, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "57.3543358,15.7783632 ": {
+        "address": "V\u00e4stra Tvetav\u00e4gen, 577 96 M\u00e5lilla, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "57.48617,12.0203247 ": {
+        "address": "S\u00e4r\u00f6leden, 434 79 Vallda, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "56.0331345,12.9688988 ": {
+        "address": "Tjutebrov\u00e4gen, 260 50 Billesholm, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.75851,13.1289063 ": {
+        "address": "108, 244 94 Furulund, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.14234,13.5001535 ": {
+        "address": "R\u00f6kev\u00e4gen 19, 282 92 V\u00e4stra Torup, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.5808144,16.313282 ": {
+        "address": "Dagsbergs kyrka, 605 91 Norrk\u00f6ping, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "57.98821,12.2101927 ": {
+        "address": "Skepplandav\u00e4gen 29b, 446 41 Skepplanda, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.96041,17.570076 ": {
+        "address": "AB 520, 610 74 Vagnh\u00e4rad, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "63.7862053,19.1683731 ": {
+        "address": "Q5P9+F8 Tj\u00e4rdalsliden, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "58.6816635,16.38072 ": {
+        "address": "Hyttav\u00e4gen 66, 618 31 Kolm\u00e5rden, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "59.32404,18.0664749 ": {
+        "address": "Centralbron, 111 28 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.0188637,12.7821846 ": {
+        "address": "2Q9J+GV Helsingborg, Sweden",
+        "lan": "Sk\u00e5ne County"
+    },
+    "57.8179169,13.3417664 ": {
+        "address": "R88V+W7, 523 90 Redv\u00e4gsbrunn, Sweden",
+        "lan": "V\u00e4stra G\u00f6taland County"
+    },
+    "56.843277,14.1494389 ": {
+        "address": "Tuna 4, 341 76 Ryssby, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "59.1674156,17.1879215 ": {
+        "address": "223 34, 646 91 Gnesta, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "58.3968925,13.891058 ": {
+        "address": "Aspelund v\u00e4g 49, 541 34 Sk\u00f6vde, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "60.55064,15.2632 ": {
+        "address": "Gimsb\u00e4rke 343, 781 90 Borl\u00e4nge, Sweden",
+        "lan": "Dalarnas l\u00e4n"
+    },
+    "59.13439,15.2829723 ": {
+        "address": "51, 692 92 Kumla, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "59.89174,17.2030468 ": {
+        "address": "\u00d6stforav\u00e4gen, 744 96 J\u00e4rl\u00e5sa, Sweden",
+        "lan": "Uppsala l\u00e4n"
+    },
+    "57.7477341,11.9902821 ": {
+        "address": "Backadalsmotet 78, 422 53 Hisings Backa, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "55.7174568,13.1670265 ": {
+        "address": "Norra Ringen, 226 60 Lund, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3102341,18.13443 ": {
+        "address": "Ryssviksv\u00e4gen 4, 131 36 Nacka, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.2603035,13.9413471 ": {
+        "address": "23, 282 76 H\u00e4stveda, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.62044,12.8836737 ": {
+        "address": "41, 515 35 Viskafors, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.6966057,11.2540751 ": {
+        "address": "Tanumsv\u00e4gen 11, 457 72 Grebbestad, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.3245735,18.0011845 ": {
+        "address": "Lilla Essingens hundrastg\u00e5rd, Primusgatan 53, 112 67 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.3376122,17.9347744 ": {
+        "address": "Drottningholmsv\u00e4gen 490, 168 39 Bromma, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.33283,17.9863663 ": {
+        "address": "Gustavslundsv\u00e4gen 12, 167 51 Bromma, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "58.8836861,14.8984661 ": {
+        "address": "St\u00e4llplats Sunds\u00e4ngen, 45, 696 32 Askersund, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "57.6805649,12.7144756 ": {
+        "address": "27, 517 96 Hultafors, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "56.00802,12.7799664 ": {
+        "address": "Stenbrov\u00e4gen 42, 253 68 Helsingborg, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.6764832,12.0415068 ": {
+        "address": "Kalvemossen, 412 76 G\u00f6teborg, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "57.28733,18.2055969 ": {
+        "address": "Eksta kyrka 1, 623 54 Klintehamn, Sweden",
+        "lan": "Gotlands l\u00e4n"
+    },
+    "59.321804,14.4116821 ": {
+        "address": "Bj\u00f6rtorp, 691 93 Karlskoga, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "63.323,14.8486586 ": {
+        "address": "Magasinsv\u00e4gen 1, 836 31 Lit, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "62.01119,17.24282 ": {
+        "address": "E4, 829 61 Gnarp, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "59.0466728,15.8132305 ": {
+        "address": "Berga 2, 643 91 Ving\u00e5ker, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "59.12223,18.122242 ": {
+        "address": "\u00d6sterhaningev\u00e4gen, 137 42 V\u00e4sterhaninge, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.29957,18.0816841 ": {
+        "address": "73XJ+RM Stockholm, Sweden",
+        "lan": "Stockholm County"
+    },
+    "57.7239952,11.9605045 ": {
+        "address": "Lundbyleden, 417 30 G\u00f6teborg, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "57.032486,12.9569187 ": {
+        "address": "'N' 718, 314 95 Kinnared, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "56.42059,14.4111853 ": {
+        "address": "Tosthult 1256, 283 93 L\u00f6nsboda, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.13357,15.33022 ": {
+        "address": "Millegarne g\u00e5rd, 372 94 Listerby, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "59.3728561,16.96209 ": {
+        "address": "55, 645 91 Str\u00e4ngn\u00e4s, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "55.6370964,13.2272482 ": {
+        "address": "Knutsborg 180, 245 45 Staffanstorp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.17906,18.1594162 ": {
+        "address": "Gud\u00f6broleden, 136 44 Handen, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.3655739,12.140913 ": {
+        "address": "\u00d6lmevallav\u00e4gen 175, 439 51 \u00c5sa, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "59.15456,15.5236015 ": {
+        "address": "Fan\u00e9rv\u00e4gen 3, 715 31 Odensbacken, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "57.957016,12.1248035 ": {
+        "address": "B\u00e5tsmansv\u00e4gen 2, 446 33 \u00c4lv\u00e4ngen, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.3135071,11.9356518 ": {
+        "address": "Bratter\u00f6dsleden, 451 91 Uddevalla, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.32528,17.63322 ": {
+        "address": "Menhammar, 178 90 Eker\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "67.3516,22.222559 ": {
+        "address": "BD 867, 984 93 T\u00e4rend\u00f6, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "56.15643,12.96362 ": {
+        "address": "161, 265 90 \u00c5storp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.725872,11.9675541 ": {
+        "address": "Lundbyleden, 422 42 Hisings Backa, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "55.69378,13.1302338 ": {
+        "address": "Flackarpsv\u00e4gen 50, 245 61 Staffanstorp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.33185,18.0229645 ": {
+        "address": "Mariebergsgatan, 112 19 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "55.69325,13.2116442 ": {
+        "address": "Kalkstensf\u00e4lten, Kalkstensv\u00e4gen 3G, 224 78 Lund, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3168831,16.2838612 ": {
+        "address": "Hallstavallen, 635 14 Eskilstuna, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "63.6612663,19.9623928 ": {
+        "address": "E4, 905 83 Ume\u00e5, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "58.09684,14.9821882 ": {
+        "address": "3XWJ+PV Tran\u00e5s, Sweden",
+        "lan": "Jonkoping County"
+    },
+    "63.323082,14.8486986 ": {
+        "address": "Magasinsv\u00e4gen 2, 830 30 Lit, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "57.35788,14.0626049 ": {
+        "address": "Byv\u00e4gen, 568 92 Skillingaryd, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "64.33534,21.269249 ": {
+        "address": "L\u00f6vsele 40, 932 94 L\u00f6v\u00e5nger, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "57.49948,12.0516119 ": {
+        "address": "E6, Kungsbacka, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "59.2125473,17.7626972 ": {
+        "address": "Pr\u00e4stbodav\u00e4gen 21X, 144 37 R\u00f6nninge, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.61175,12.0448637 ": {
+        "address": "DECO Republic, Bang\u00e5rdsv\u00e4gen 39, D, 428 36 K\u00e5llered, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.35127,12.403 ": {
+        "address": "Snickareg\u00e5rdsv\u00e4gen 22, 468 30 Varg\u00f6n, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.20645,17.6890774 ": {
+        "address": "E4, 152 95 S\u00f6dert\u00e4lje, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "62.55934,17.6916771 ": {
+        "address": "E4, Sweden",
+        "lan": "V\u00e4sternorrlands l\u00e4n"
+    },
+    "55.6806,13.2806005 ": {
+        "address": "102, 247 91 S\u00f6dra Sandby, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.77855,14.22141 ": {
+        "address": "E4, 554 56 J\u00f6nk\u00f6ping, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "59.33031,18.0534286 ": {
+        "address": "Blekholmsterrassen 8, 111 64 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "56.5960655,12.9339008 ": {
+        "address": "F\u00e5gelviksv\u00e4gen 3B, 305 95 Halmstad, Sweden",
+        "lan": "Hallands l\u00e4n"
+    },
+    "59.31559,18.0715141 ": {
+        "address": "Noe Arksgr\u00e4nden 6, 118 26 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "62.5400429,12.4424362 ": {
+        "address": "Fj\u00e4llfararv\u00e4gen 2, 846 73 Fun\u00e4sdalen, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "63.7970467,20.225626 ": {
+        "address": "E4, 904 40 R\u00f6b\u00e4ck, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "58.11336,12.6264725 ": {
+        "address": "Magrav\u00e4gen 215, 466 92 Sollebrunn, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.3301277,18.0536766 ": {
+        "address": "Klarabergsviadukten 92, 111 64 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.71059,11.9261284 ": {
+        "address": "PW6G+6F Gothenburg, Sweden",
+        "lan": "V\u00e4stra G\u00f6taland County"
+    },
+    "56.1563454,12.9634953 ": {
+        "address": "161, 265 90 \u00c5storp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.30654,18.0753365 ": {
+        "address": "Ringv\u00e4gen 98, 118 60 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "55.7976265,13.10637 ": {
+        "address": "Nordanv\u00e4g 48A, 244 38 K\u00e4vlinge, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3130035,18.1063652 ": {
+        "address": "H\u00e4stholmsv\u00e4gen 23, 116 44 Stockholm, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.9570236,12.1247864 ": {
+        "address": "B\u00e5tsmansv\u00e4gen 2, 446 33 \u00c4lv\u00e4ngen, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "57.7066727,11.89083 ": {
+        "address": "PV4R+M8 Gothenburg, Sweden",
+        "lan": "V\u00e4stra G\u00f6taland County"
+    },
+    "59.7352333,18.6850433 ": {
+        "address": "Backtorpsh\u00f6jden 40, 761 97 Norrt\u00e4lje, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "57.28723,18.20562 ": {
+        "address": "Eksta kyrka 1, 623 54 Klintehamn, Sweden",
+        "lan": "Gotlands l\u00e4n"
+    },
+    "56.01845,12.77932 ": {
+        "address": "E4, 253 68 Helsingborg, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.1890526,15.0722208 ": {
+        "address": "Br\u00e4nderyd 6, 574 74 Ramkvilla, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "61.0587,15.6864271 ": {
+        "address": "DALSTUGA BYV\u00c4G 6, 790 26 Enviken, Sweden",
+        "lan": "Dalarnas l\u00e4n"
+    },
+    "56.22762,15.2693033 ": {
+        "address": "Solrosv\u00e4gen 28, 372 31 Ronneby, Sweden",
+        "lan": "Blekinge l\u00e4n"
+    },
+    "56.07432,12.7784691 ": {
+        "address": "E4, 253 56 Helsingborg, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.6052856,15.4574738 ": {
+        "address": "120, 361 95 L\u00e5ngasj\u00f6, Sweden",
+        "lan": "Kalmar l\u00e4n"
+    },
+    "55.5647545,13.0018806 ": {
+        "address": "V\u00e4stra S\u00f6derkulla, S\u00f6der, 215 80 Malm\u00f6, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.79364,14.1457424 ": {
+        "address": "19, 297 95 Degeberga, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.8985329,14.1055679 ": {
+        "address": "Stora V\u00e4gen 12, 297 72 Ever\u00f6d, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.3145065,11.93951 ": {
+        "address": "Bratter\u00f6ds bro, 451 91 Uddevalla, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "55.6170959,13.0623283 ": {
+        "address": "Segesv\u00e4ngen 1, 212 27 Malm\u00f6, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "58.4990845,15.00978 ": {
+        "address": "Norrsten 302, 591 92 Motala, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "58.4990921,15.0097971 ": {
+        "address": "Norrsten 302, 591 92 Motala, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "58.3652573,12.3186941 ": {
+        "address": "Gropbron, Edsv\u00e4gen, 462 56 V\u00e4nersborg, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "65.73906,23.79501 ": {
+        "address": "PQQW+J2 Sortti, Sweden",
+        "lan": "Norrbotten County"
+    },
+    "55.5678673,13.3774061 ": {
+        "address": "H99G+4X Genarp, Sweden",
+        "lan": "Sk\u00e5ne County"
+    },
+    "59.483036,13.4129648 ": {
+        "address": "62, 655 91 Karlstad, Sweden",
+        "lan": "V\u00e4rmlands l\u00e4n"
+    },
+    "62.94339,15.0743637 ": {
+        "address": "\u00d6stersundsv\u00e4gen, 843 95 G\u00e4ll\u00f6, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "65.73193,18.6436024 ": {
+        "address": "95, 933 95 Arvidsjaur, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "60.5950432,16.9621143 ": {
+        "address": "Flygf\u00e4ltsv\u00e4gen, 818 91 Valbo, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "55.559742,13.3993053 ": {
+        "address": "M 796, 247 99 Genarp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.56793,13.2502708 ": {
+        "address": "27, 514 52 L\u00e4nghem, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "56.6607,14.2532825 ": {
+        "address": "V\u00e4rpeshult 48, 343 74 Liatorp, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "55.5884438,13.6027822 ": {
+        "address": "Tallgatan 10, 275 62 Blentarp, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.28227,13.6247988 ": {
+        "address": "M 1885, 282 65 Bj\u00e4rnum, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.89854,14.105504 ": {
+        "address": "Stora V\u00e4gen 11, 297 72 Ever\u00f6d, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "55.49716,14.1314344 ": {
+        "address": "Hammenh\u00f6g 1821, 276 55 Hammenh\u00f6g, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.1773262,15.0352468 ": {
+        "address": "F 749, 574 74 Ramkvilla, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "55.9001846,14.1079607 ": {
+        "address": "8a, 297 72 Ever\u00f6d, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "61.71537,16.2001934 ": {
+        "address": "K\u00e5sj\u00f6 hybov\u00e4gen 21, 827 54 J\u00e4rvs\u00f6, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "63.96263,20.6927452 ": {
+        "address": "E4, 915 97 Bygde\u00e5, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "55.5653343,12.8948908 ": {
+        "address": "E20, 216 30 Limhamn, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.2822762,13.624814 ": {
+        "address": "M 1885, 282 65 Bj\u00e4rnum, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "56.66071,14.2532825 ": {
+        "address": "V\u00e4rpeshult 48, 343 74 Liatorp, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "59.35156,15.3947926 ": {
+        "address": "Tjugesta 305, 705 97 Glanshammar, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "61.7153778,16.2001934 ": {
+        "address": "K\u00e5sj\u00f6 hybov\u00e4gen 21, 827 54 J\u00e4rvs\u00f6, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "55.900177,14.1079607 ": {
+        "address": "8a, 297 72 Ever\u00f6d, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.25099,18.2039413 ": {
+        "address": "Erstaviksv\u00e4gen 16, 135 47 Tyres\u00f6, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "59.2021561,15.163249 ": {
+        "address": "Droskv\u00e4gen 23, 702 33 \u00d6rebro, Sweden",
+        "lan": "\u00d6rebro l\u00e4n"
+    },
+    "56.051403,14.1946754 ": {
+        "address": "Nosabyv\u00e4gen 211, 291 47 Kristianstad, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "59.3824043,17.935318 ": {
+        "address": "L\u00e4nsv\u00e4g 279, 163 74 Sp\u00e5nga, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "63.0446777,17.6328278 ": {
+        "address": "90, 873 92 Bollstabruk, Sweden",
+        "lan": "V\u00e4sternorrlands l\u00e4n"
+    },
+    "59.24582,17.84059 ": {
+        "address": "E4, 145 67 Norsborg, Sweden",
+        "lan": "Stockholms l\u00e4n"
+    },
+    "68.42721,18.4401913 ": {
+        "address": "E10, 981 93 Bj\u00f6rkliden, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "58.4596634,13.0196609 ": {
+        "address": "44, 531 96 Lidk\u00f6ping, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "59.832695,17.743536 ": {
+        "address": "Danmarks kyrka, 755 98 Uppsala, Sweden",
+        "lan": "Uppsala l\u00e4n"
+    },
+    "58.68735,17.05629 ": {
+        "address": "53, 613 41 Oxel\u00f6sund, Sweden",
+        "lan": "S\u00f6dermanlands l\u00e4n"
+    },
+    "56.0436974,14.3357611 ": {
+        "address": "B\u00e4ckaskogsv\u00e4gen 5, 291 67 Fj\u00e4lkinge, Sweden",
+        "lan": "Sk\u00e5ne l\u00e4n"
+    },
+    "57.7272453,11.9923544 ": {
+        "address": "Salsm\u00e4staregatan 25, 422 46 Hisings Backa, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "57.8755074,12.3281288 ": {
+        "address": "\u00d6stadsv\u00e4gen 173, 443 72 Gr\u00e5bo, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "57.7271767,11.992898 ": {
+        "address": "PXGV+V5 Gothenburg, Sweden",
+        "lan": "V\u00e4stra G\u00f6taland County"
+    },
+    "63.80344,20.2539253 ": {
+        "address": "R733+9H Ume\u00e5, Sweden",
+        "lan": "V\u00e4sterbotten County"
+    },
+    "63.33052,14.03412 ": {
+        "address": "E14, 835 96 Tr\u00e5ngsviken, Sweden",
+        "lan": "J\u00e4mtlands l\u00e4n"
+    },
+    "58.51743,12.3026743 ": {
+        "address": "R\u00f6storp, 464 64 Br\u00e5landa, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    "58.537075,16.0392284 ": {
+        "address": "E4, 617 91 Norrk\u00f6ping, Sweden",
+        "lan": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    "56.59526,13.7364311 ": {
+        "address": "E4, 287 92 Traryd, Sweden",
+        "lan": "Kronobergs l\u00e4n"
+    },
+    "57.16151,13.4114094 ": {
+        "address": "S\u00f6dra Nissastigen 6, 333 32 Sm\u00e5landsstenar, Sweden",
+        "lan": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    "65.8334961,23.7628555 ": {
+        "address": "E4, 953 92 Haparanda, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "63.73991,20.1179771 ": {
+        "address": "E4, 905 82 Ume\u00e5, Sweden",
+        "lan": "V\u00e4sterbottens l\u00e4n"
+    },
+    "61.324192,14.7346716 ": {
+        "address": "E45, 794 98 Orsa, Sweden",
+        "lan": "Dalarnas l\u00e4n"
+    },
+    "60.6196327,16.7073612 ": {
+        "address": "Stigen 7, 811 91 Sandviken, Sweden",
+        "lan": "G\u00e4vleborgs l\u00e4n"
+    },
+    "65.7039948,21.815052 ": {
+        "address": "Norra Sunderbyv\u00e4gen 713, 954 42 S\u00f6dra Sunderbyn, Sweden",
+        "lan": "Norrbottens l\u00e4n"
+    },
+    "63.5393257,16.4692879 ": {
+        "address": "Lungsj\u00f6n 145, 883 92 Ramsele, Sweden",
+        "lan": "V\u00e4sternorrlands l\u00e4n"
+    },
+    "57.4641037,13.3257608 ": {
+        "address": "Tranemov\u00e4gen, 514 91 Tranemo, Sweden",
+        "lan": "V\u00e4stra G\u00f6talands l\u00e4n"
     }
 }
