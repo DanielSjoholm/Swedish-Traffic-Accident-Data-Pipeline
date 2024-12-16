@@ -1,26 +1,45 @@
 import streamlit as st
 import pandas as pd
-from helpers.reverse_geocode import reverse_geocode
+import json
 from helpers.normalize import normalize_lan
 from helpers.Connect_and_query import query_trafic_situations
+
+@st.cache_data
+def prepare_geocode_mapping():
+    """Förbered en mappning av koordinater till län och adress baserat på cache."""
+    with open("geocode_cache_lan.json", "r") as cache_file:
+        geocode_cache = json.load(cache_file)
+    # Omvandla nycklar från "latitude,longitude" till tuple (latitude, longitude)
+    return {
+        tuple(map(float, key.split(','))): value for key, value in geocode_cache.items()
+    }
 
 def layout():
     st.set_page_config(layout="wide")
     st.subheader('Traffic Situations Search Dashboard')
 
+    # Ladda geocode-mappning
+    geocode_mapping = prepare_geocode_mapping()
+
     # Hämta och förbered trafikdata
     df = query_trafic_situations()
     df.columns = df.columns.str.upper()
 
-    # Lägg till adress och län baserat på koordinater
+    # Lägg till adress och län från mappningen
     def get_address_and_lan(row):
-        lat = row['WGS84_POINT_LATITUDE']
-        lon = row['WGS84_POINT_LONGITUDE']
+        try:
+            lat = float(row['WGS84_POINT_LATITUDE'])
+            lon = float(row['WGS84_POINT_LONGITUDE'])
+        except (ValueError, TypeError):
+            return "Okänd adress", "Okänd län"
+
         if pd.notna(lat) and pd.notna(lon):
-            geo_info = reverse_geocode(lat, lon)
-            return geo_info.get('address', 'Okänd adress'), normalize_lan(geo_info.get('lan', 'Okänd län'))
+            # Formatera koordinaterna med samma precision som JSON-filen
+            cache_key = (lat, lon)
+            geo_info = geocode_mapping.get(cache_key, {"address": "Okänd adress", "lan": "Okänd län"})
+            return geo_info["address"], normalize_lan(geo_info["lan"])
         else:
-            return 'Okänd adress', 'Okänd län'
+            return "Okänd adress", "Okänd län"
 
     df[['ADRESS', 'LAN']] = df.apply(lambda row: pd.Series(get_address_and_lan(row)), axis=1)
 

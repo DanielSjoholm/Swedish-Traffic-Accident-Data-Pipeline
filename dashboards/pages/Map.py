@@ -18,8 +18,9 @@ def layout():
     # Filtrera bort rader där latitud eller longitud är NaN
     df = df.dropna(subset=['WGS84_POINT_LATITUDE', 'WGS84_POINT_LONGITUDE'])
 
-    # Omvandla start_time till datetime-format
+    # Omvandla start_time och end_time till datetime-format
     df['START_TIME'] = pd.to_datetime(df['START_TIME'])
+    df['END_TIME'] = pd.to_datetime(df['END_TIME'])
 
     # Välj datumintervall
     min_date = df['START_TIME'].min().date()
@@ -32,6 +33,10 @@ def layout():
 
     # Kontrollera att det finns data att visa
     if not filtered_df.empty:
+        # Konvertera START_TIME och END_TIME till strängar i ett läsbart format
+        filtered_df['START_TIME'] = filtered_df['START_TIME'].dt.strftime('%Y-%m-%d %H:%M:%S')
+        filtered_df['END_TIME'] = filtered_df['END_TIME'].dt.strftime('%Y-%m-%d %H:%M:%S')
+
         # Visa en karta med alla trafiksituationer inom valt datumintervall
         st.subheader(f"Trafiksituationer mellan {selected_date[0]} och {selected_date[1]}")
 

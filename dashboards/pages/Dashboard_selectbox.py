@@ -1,28 +1,47 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import json
 from helpers.normalize import normalize_lan
-from helpers.reverse_geocode import reverse_geocode
 from helpers.Connect_and_query import query_trafic_situations
+
+@st.cache_data
+def prepare_geocode_mapping():
+    """Förbered en mappning av koordinater till län och adress baserat på cache."""
+    with open("geocode_cache_lan.json", "r") as cache_file:
+        geocode_cache = json.load(cache_file)
+    # Omvandla nycklar från "latitude,longitude" till tuple (latitude, longitude)
+    return {
+        tuple(map(float, key.split(','))): value for key, value in geocode_cache.items()
+    }
 
 def layout():
     st.set_page_config(layout="wide")
     st.subheader('Traffic Situations Dashboard')
 
+    # Ladda geocode-mappning
+    geocode_mapping = prepare_geocode_mapping()
+
     # Hämta och förbered trafikdata
     df = query_trafic_situations()
     df.columns = df.columns.str.upper()
 
-    # Lägg till länsinformation från cachen eller API:et till dataframe
-    def get_lan_from_cache_or_api(row):
-        lat = row['WGS84_POINT_LATITUDE']
-        lon = row['WGS84_POINT_LONGITUDE']
-        return reverse_geocode(lat, lon)['lan'] if pd.notna(lat) and pd.notna(lon) else 'Okänd län'
+    # Lägg till länsinformation från mappningen
+    def get_lan_from_mapping(row):
+        try:
+            lat = float(row['WGS84_POINT_LATITUDE'])
+            lon = float(row['WGS84_POINT_LONGITUDE'])
+        except (ValueError, TypeError):
+            return "Okänd län"
 
-    df['LAN'] = df.apply(get_lan_from_cache_or_api, axis=1)
+        if pd.notna(lat) and pd.notna(lon):
+            cache_key = (lat, lon)
+            geo_info = geocode_mapping.get(cache_key, {"lan": "Okänd län"})
+            return normalize_lan(geo_info["lan"])
+        else:
+            return "Okänd län"
 
-    # Normalisera län/County så att de har samma namn
-    df['LAN'] = df['LAN'].apply(normalize_lan)
+    df['LAN'] = df.apply(get_lan_from_mapping, axis=1)
 
     # Räkna antal situationer per län
     lan_counts = df['LAN'].value_counts().reset_index()
@@ -75,7 +94,6 @@ def layout():
         sort=[alt.SortField('Antal', order='descending')]
     )
     st.altair_chart(message_chart)
-
 
 # Använd layout-funktionen
 layout()
