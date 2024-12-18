@@ -12,8 +12,6 @@ st.set_page_config(
 
 def layout():
     
-    st.subheader('Raw Data Dashboard')
-
     # Hämta trafikdata
     df = query_trafic_situations()
     df.columns = df.columns.str.upper()
