@@ -5,6 +5,12 @@ import json
 from helpers.normalize import normalize_lan
 from helpers.Connect_and_query import query_trafic_situations
 
+st.set_page_config(
+    page_title="Län & Trafikmeddelanden",
+    page_icon="🚧",
+    layout="wide"
+)
+
 @st.cache_data
 def prepare_geocode_mapping():
     """Förbered en mappning av koordinater till län och adress baserat på cache."""
@@ -16,8 +22,8 @@ def prepare_geocode_mapping():
     }
 
 def layout():
-    st.set_page_config(layout="wide")
-    st.subheader('Traffic Situations Dashboard')
+    # st.set_page_config(layout="wide")
+    st.subheader('Trafiksituationer Per Län')
 
     # Ladda geocode-mappning
     geocode_mapping = prepare_geocode_mapping()
@@ -48,7 +54,7 @@ def layout():
     lan_counts.columns = ['Län', 'Antal situationer']
 
     # Dropdown för att välja län
-    selected_lan = st.selectbox("Välj Län", df['LAN'].unique())
+    selected_lan = st.selectbox("Välj Län", sorted(df['LAN'].unique()))
 
     # Filtrera data för det valda länet
     filtered_df = df[df['LAN'] == selected_lan]
@@ -62,7 +68,7 @@ def layout():
     message_type_counts.columns = ['Message Type', 'Antal']
 
     # Visualisera antal message_type för det valda länet
-    st.subheader(f'Antal Message Types för {selected_lan}')
+    st.subheader(f'Antal Meddelande för {selected_lan}')
     message_chart = alt.Chart(message_type_counts).mark_bar().encode(
         x=alt.X('Antal:Q', title='Antal'),
         y=alt.Y('Message Type:N', sort='-x', title='Message Type')
@@ -73,7 +79,7 @@ def layout():
     st.altair_chart(message_chart)
 
     # Dropdown för att välja message_type
-    selected_message_type = st.selectbox("Välj Message Type", df['MESSAGE_TYPE'].unique())
+    selected_message_type = st.selectbox("Välj Trafikmeddelande", sorted(df['MESSAGE_TYPE'].unique()))
 
     # Filtrera data för det valda message_type
     filtered_df = df[df['MESSAGE_TYPE'] == selected_message_type]
