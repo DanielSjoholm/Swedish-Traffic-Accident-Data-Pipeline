@@ -1,14 +1,3 @@
-# Swedish-Traffic-Accident-Data-Pipeline
-https://rx96840.west-europe.azure.snowflakecomputing.com/
-
-API_KEY = "5c341f5a9438482ca26b412a7c146cea"
-GOOGLE_API_KEY = "AIzaSyAGlo6bjyW93UtpJMCSbAZUjfk5geW6hig"
-
-DB_NAME=trafic_analytics_db
-DB_USER=rickdani
-DB_PASSWORD=cSudpTGAqEv9GE
-DB_HOST=traficc-analytic-db-server.postgres.database.azure.com
-DB_PORT=5432
 
 # Thesis Project: Data Management of Traffic Accidents in Sweden
 

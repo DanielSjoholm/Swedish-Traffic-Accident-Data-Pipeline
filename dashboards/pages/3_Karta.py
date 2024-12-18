@@ -3,9 +3,16 @@ import pandas as pd
 import pydeck as pdk
 from helpers.Connect_and_query import query_trafic_situations
 
+
+# Konfigurera sidan
+st.set_page_config(
+    page_title="Karta - Trafikinformation",
+    page_icon="🗺️",
+    layout="wide"
+)
+
 def layout():
-    st.set_page_config(layout="wide")
-    st.subheader('Traffic Situations Dashboard with Interactive Map')
+    st.subheader('Trafiksituationer i realtid')
 
     # Hämta och förbered trafikdata
     df = query_trafic_situations()
