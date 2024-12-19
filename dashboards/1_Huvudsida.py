@@ -28,7 +28,7 @@ def main_page():
 
     # Filtrera data för dagens datum
     df['START_TIME'] = pd.to_datetime(df['START_TIME'])
-    today = pd.Timestamp.now().normalize()
+    today = (pd.Timestamp.now().normalize() - pd.Timedelta(days=1))
     df_today = df[df['START_TIME'].dt.date == today.date()]
 
     # Översiktsdata
